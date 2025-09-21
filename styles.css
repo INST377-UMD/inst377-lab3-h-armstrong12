@@ -1,11 +1,11 @@
 body {
     background-color:lightyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .headfoot{
     background-color:lightseagreen;
     text-align: center;
-    font-family: cursive;
     margin: 5px;
     padding:5px;
     clear:both;
@@ -14,41 +14,49 @@ body {
 .main-nav {
     background-color: rgb(133, 209, 236);
     text-align:center;
-    color:rgb(0, 0, 0);
+    color:white;
     margin: 5px;
     padding:1px;
 }
 
+
 .sidebar {
-    text-align: center;
-    background-color:chartreuse;
+    background-color:rgb(194, 157, 255);
     float:right;
-    width:25%;
+    width:30%;
     border:2px solid black;
     float:right;
+    margin: 2px;
+    padding:10px;
+    border-radius: 10px;
 
+}
+
+.sidebar:hover {
+    background-color:aquamarine;
 }
 
 .main-nav ul{
     list-style-type: none;
 }
 
+
 .main-nav ul li{
     display: inline-block;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 0, 0);
 }
 
-.main-nav ul li:hover{
+a:hover{
     color:antiquewhite;
 }
 
 .main-content{
     float:left;
     background-color:lightskyblue;
-    padding:5px;
+    padding:10px;
     margin:2px;
     border:5px solid black;
-    width:65%;
+    width:63%;
 }
 
 input[type=text]:focus {
